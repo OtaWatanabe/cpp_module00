@@ -2,5 +2,5 @@
 *.o
 .vscode
 ex00/megaphone
-exx01/phonebook
+ex01/phonebook
 ex02/tests

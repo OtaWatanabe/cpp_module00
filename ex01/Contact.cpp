@@ -20,7 +20,7 @@ void	print_setw(std::string str, int if_last, int if_id, int id)
 	else std::cout << std::endl;
 }
 
-void	Contact::print_simple()
+void	Contact::print_simple(void)
 {
 	print_setw("", 0, 1, m_id);
 	print_setw(m_first_name, 0, 0, 0);
