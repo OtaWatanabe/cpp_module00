@@ -9,6 +9,6 @@ int	main(int argc, char *argv[]) {
 			for (int j = 0; argv[i][j]; ++j) argv[i][j] = toupper(argv[i][j]);
 			std::cout << argv[i];
 		}
-		std::cout << '\n';
+		std::cout << std::endl;
 	}
 }
